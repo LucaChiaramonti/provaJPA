@@ -45,7 +45,8 @@ public class Controller
 	}
 	@RequestMapping(value = "/aggiungiStudente", method = RequestMethod.GET)
 	public String aggiungiStudente(@RequestParam String nome,@RequestParam String cognome,Model model) {
-		
+		String o;
+		int x;
 		sU.aggiungiStudente(nome, cognome);
 		return "index";
 	}

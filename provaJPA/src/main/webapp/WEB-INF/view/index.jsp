@@ -7,6 +7,33 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="studenti">Studenti</a>
+	
+	<form action="trovaTutti" method="get">
+		<input type="submit"  value="Stampa tutti">
+	</form>
+	<br>
+	<hr>
+	
+	<form action="trovaPerNome" method="get">
+		<input type="text" name="nome"> Inserici il  nome da cercare
+		<input type="submit">
+	</form>
+	<hr>
+	<br>
+	<form action="trovaPerCognome" method="get">
+		<input type="text" name="cognome">  Inserisci il cognome da cercare
+		<input type="submit">
+	</form>
+	<hr>
+	<br>	
+		<hr>
+	<br>
+	<form action="aggiungiStudente" method="get">
+	<input type="text" name="nome"> Inserici il  nome 
+		<input type="text" name="cognome">  Inserisci il cognome 
+		<input type="submit">
+	</form>
+	<hr>
+	<br>
 </body>
 </html>
